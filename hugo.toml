@@ -1,0 +1,88 @@
+baseURL = 'https://valmoryn.gitbug.io/'
+title = "Valmoryn"
+languageCode = 'en-us'
+theme = "papermod"
+pagination.pagerSize = 10
+enableRobotsTXT = true
+defaultContentLanguage = "en"
+
+# Taxonomies for intel-style organisation
+[taxonomies]
+category = "categories"
+tag = "tags"
+section_types = "section-types"
+
+# Enable search and JSON outputs
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+section = ["HTML", "RSS"]
+taxonomy = ["HTML", "RSS"]
+term = ["HTML", "RSS"]
+page = ["HTML"]
+
+[params]
+env = "production"
+title = "Valmoryn"
+description = "An independent strategic intelligence project focused on state behaviour, military posture, escalation dynamics and grey zone competition."
+keywords = ["OSINT", "intelligence", "analysis", "Indo-Pacific", "security", "Valmoryn", "geopolitics"]
+author = "Valmoryn"
+
+ShowReadingTime = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+ShowCodeCopyButton = true
+ShowToc = true
+disableHLJS = false
+defaultTheme = "auto"
+
+# Brand label in the navbar
+[params.label]
+text = "Valmoryn"
+icon = ""
+iconHeight = 64
+
+# Profile-style homepage (like a small intel "desk")
+[params.profileMode]
+enabled = true
+title = "Valmoryn"
+subtitle = "An independent strategic intelligence project focused on state behaviour, military posture, escalation dynamics and grey zone competition."
+imageUrl = "/images/image.png" # optional logo/avatar later
+imageWidth = 120
+imageHeight = 120
+buttons = [
+{ name = "Intelligence Reporting", url = "/intelligence-reporting/" },
+{ name = "PIRs", url = "/pirs/" },
+{ name = "About", url = "/about/" },
+{ name = "Search", url = "/search/" }
+]
+
+# Enable Fuse.js searc (local, no external service)
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+includesMatches = true
+threshold = 0.4
+minMatchCharLength = 2
+
+[menu]
+
+[[menu.main]]
+name = "Intelligence Reporting"
+url = "/intelligence-reporting/"
+weight = 1
+
+[[menu.main]]
+name = "PIRs"
+url = "/pirs/"
+weight = 4
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 5
+
+[[menu.main]]
+name = "Search"
+url = "/search/"
+weight = 6
+
