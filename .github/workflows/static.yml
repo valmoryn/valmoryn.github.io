@@ -28,7 +28,7 @@ jobs:
         extended: true
 
     - name: Build
-      run: hugo --minify
+      run: hugo --minify --baseURL "https://valmoryn.github.io/"
 
     - name: Upload artiact
       uses: actions/upload-pages-artifact@v3
