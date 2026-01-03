@@ -1,4 +1,4 @@
-baseURL = 'https://valmoryn.gitbug.io/'
+baseURL = 'https://valmoryn.github.io/'
 title = "Valmoryn"
 languageCode = 'en-us'
 theme = "papermod"
