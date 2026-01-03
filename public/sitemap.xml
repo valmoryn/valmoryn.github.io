@@ -10,31 +10,7 @@
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/australia/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/bondi-shooting/</loc>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/china/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/current-event/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/domestic/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/economics/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/geopolitics/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/india/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/indo-pacific/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/japan/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/maritime/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/military/</loc>
   </url><url>
     <loc>http://localhost:1313/pirs/</loc>
   </url><url>
@@ -42,24 +18,6 @@
   </url><url>
     <loc>http://localhost:1313/section-types/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/security/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/solomon-islands/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/startegic/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/terrorism/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/terrorism/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/trend-analysis/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/uk/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/us/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/yonaguni/</loc>
   </url>
 </urlset>

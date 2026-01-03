@@ -41,12 +41,12 @@ text = "Valmoryn"
 icon = ""
 iconHeight = 64
 
-# Profile-style homepage (like a small intel "desk")
+# Profile-style homepage
 [params.profileMode]
 enabled = true
 title = "Valmoryn"
 subtitle = "An independent strategic intelligence project focused on state behaviour, military posture, escalation dynamics and grey zone competition."
-imageUrl = "/images/image.png" # optional logo/avatar later
+imageUrl = "/images/image.png" # optional logo/avatar
 imageWidth = 120
 imageHeight = 120
 buttons = [
@@ -83,6 +83,6 @@ weight = 5
 
 [[menu.main]]
 name = "Search"
-url = "/search/"
+url = "search/"
 weight = 6
 
