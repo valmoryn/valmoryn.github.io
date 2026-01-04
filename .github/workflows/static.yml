@@ -29,7 +29,7 @@ jobs:
 
     - name: Build
 <<<<<<< HEAD
-      run: hugo --minify --gc --cleanDestinationDir --environment production --baseURL "https://valmoryn.github.io/""
+      run: hugo --minify --baseURL "https://valmoryn.github.io/""
 =======
       run: hugo --minify --baseURL "https://valmoryn.github.io/"
 >>>>>>> 4efc45af2ec9b8c412029442bef842a2981525a1
