@@ -3,6 +3,8 @@
 public/
 resources/
 .hugo_build.lock
+content/intelligence-reporting/report-template.md
+content/intelligence-reporting/testReport.md
 
 .hugo_cache/
 hugo_stats.json
