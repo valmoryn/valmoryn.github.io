@@ -30,9 +30,21 @@ jobs:
         hugo-version: "latest"
         extended: true
 
+    - name: Debug - theme and layouts
+      run: |
+        echo ""== themes =="
+        ls -la themes || true
+        ls -la themes/papermod || true
+        ls -ls themes/papermod/layouts || true
+
     - name: Build
       run: hugo --minify
 
+    - name: Debug - public output
+      run: |
+        echo "== public =="
+        ls -la public | head -n 50
+        test -f public/index.html && echo "index.html exist"|| echo "index.html missing"
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
