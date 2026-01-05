@@ -32,7 +32,7 @@ jobs:
 
     - name: Debug - theme and layouts
       run: |
-        echo ""== themes =="
+        echo "== themes =="
         ls -la themes || true
         ls -la themes/papermod || true
         ls -ls themes/papermod/layouts || true
