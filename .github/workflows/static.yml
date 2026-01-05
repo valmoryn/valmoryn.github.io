@@ -21,7 +21,7 @@ jobs:
     - name: Checkout
       uses:  actions/checkout@v4
       with:
-        subodules: true
+        submodules: true
         fetch-depth: 0
 
     - name: Update submodules
@@ -49,5 +49,5 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       -  name: Deploy to Github Pages
-         id: deploument
+         id: deployment
          uses: actions/deploy-pages@v4
