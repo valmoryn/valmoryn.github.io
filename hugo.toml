@@ -1,7 +1,7 @@
 baseURL = 'https://valmoryn.github.io/'
 title = "Valmoryn"
 languageCode = 'en-us'
-theme = "PaperMod"
+theme = "papermod"
 pagination.pagerSize = 10
 enableRobotsTXT = true
 defaultContentLanguage = "en"
