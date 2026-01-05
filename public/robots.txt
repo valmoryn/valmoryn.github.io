@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://valmoryn.github.io/sitemap.xml
