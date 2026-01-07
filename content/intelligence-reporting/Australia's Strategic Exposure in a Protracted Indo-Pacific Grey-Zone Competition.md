@@ -1,6 +1,10 @@
 ---
 title: "Australia's Strategic Exposure in a Protracted Indo-Pacific Grey-Zone Competition"
 subtitle: "Structural Vulnerabilities Below the Threshold of Open Conflict"
+cover:
+  image: "/images/reports/indo-pacific-region-map.png"
+  alt: "Indo-Pacific Strategic Context"
+  caption: "Strategic operating environment relevant to this report."
 date: 2026-01-06
 type: "flagship"
 author: "Valmoryn"
@@ -16,9 +20,8 @@ tags:
  - Australia
  - long-term risk
 showtoc: true
-tocopen: true
+tocopen: false
 draft: false
-
 ---
 ## Executive Summary
 
@@ -184,6 +187,4 @@ The strategic task ahead is not to resolve competition, but to **remain effectiv
 
 Valmoryn references sources to support analytical judgement, not provide exhaustive literature review.
 Inclusion of a source does not imply endorsement of all associated conclusions.
-
----
 
